@@ -13,9 +13,9 @@ def read_sensor_data():
 	pressure = bmp.pressure
 	altitude = bmp.altitude
 	
-	print(f"Temperature: {temperature:.2f} C")
-	print(f"Pressure: {pressure:.2f} hPa")
-	print(f"Altitude: {altitude:.2f} meters")
+	print(f"Temperatura {temperature:.2f} C")
+	print(f"Cisnienie: {pressure:.2f} hPa")
+	print(f"Wysokośc npm: {altitude:.2f} m")
 	time.sleep(1)
 	
 while True:
